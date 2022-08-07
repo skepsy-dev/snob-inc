@@ -2,7 +2,10 @@ Website Planning - Snob Inc
 
 Pg. 1
 
+body // CSS thick balck border w/ white bg (how to add lulo-clean font?)
+
 Navbar: // head enter font, style
+
     h1
     ul menu bar list w/ href (li * 4)
         <li><a href="page url/local loaction" target="_blank">text</a></li> // include id, class (active class?)
@@ -12,11 +15,10 @@ Navbar: // head enter font, style
                     top: 0;
                     width: 100%;
                 }
-body // CSS thick balck border w/ white bg (how to add lulo-clean font?)
 
 h3 // CSS centered header
 
-img * 12 // CSS centered grid 2 column 9 rows / hover to see inforamtion of project?
+img * 18 // CSS centered grid 2 column 9 rows / hover to see inforamtion of project?
     href links to company of content
     label * 18 ?
     alt text
@@ -62,9 +64,9 @@ Pg. 2
 
 Pg. 3
 
-    Navbar - add pg.1 navbar
+     body // thick pink border, white bg
 
-    body // thick pink border, white bg
+    Navbar - add pg.1 navbar
 
     h3 - pg1 h3 header // white bg pink border
 
@@ -85,6 +87,6 @@ Pg. 4
 
     p - email, link out? // centered under h2
 
-    Form - submit button (where go data? send as email?)
+    Form - submit button (where go data? send as email?) // p -> br ?
 
     footer - add pg.1 footer navbar
