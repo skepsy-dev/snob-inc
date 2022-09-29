@@ -1,0 +1,363 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('font/LuloClean.woff2') format('woff2'),
+        url('font/LuloClean.woff') format('woff');
+}
+
+div {
+    font-family: 'MyWebFont';
+}
+
+input {
+    font-family: 'MyWebFont';
+    font-size: 10px;
+    text-align: center;
+}
+
+select {
+    font-family: 'MyWebFont';
+    font-size: 10px;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'MyWebFont';
+    color: black;
+}
+
+h3 {
+    text-align: left;
+    font-family: 'MyWebFont';
+    color: black;
+    white-space: nowrap;
+}
+
+h6 {
+    text-align: center;
+    font-family: 'MyWebFont';
+    color: black;
+}
+
+li {
+    text-decoration: none;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    font-family: 'MyWebFont';
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+
+td {
+    font-family: 'MyWebFont';
+}
+
+button {
+    font-family: 'MyWebFont';
+    font-size: 10px;
+    background-color: rgb(253, 230, 235);
+}
+
+textarea {
+    font-family: 'MyWebFont';
+    font-size: 10px;
+}
+
+/* start navbar */
+
+.navBar {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background-color: none;
+    color: black;
+    width: 100%;
+}
+
+.navBar.sticky {
+    position: fixed;
+}
+.navLogo {
+    width: 300px;
+    height: auto;
+    padding-left: 20%;
+    padding-top: 7%;
+    font-size: 30px;
+}
+
+.navbar-links {
+   padding-right: 10%;
+   padding-top: 2%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+    text-size-adjust: 5px;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    font-size: .77em;
+}
+
+.navbar-links li:hover {
+    background-color: rgb(253, 230, 235);
+}
+
+.toggle-button {
+    position: absolute;
+    padding-top: 2%;
+    right: 5%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+
+    }
+
+    .navbar-links ul {
+        flex-direction: column;
+        padding-top: 40px;
+    }
+
+    .navbar-links li {
+        text-align: right;
+    }
+
+    .navbar-links li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+/* end navbar */
+
+/* start navfooter */
+
+.footerLogo {
+ display: flex;
+}
+
+.logo-footer {
+ padding-left: 7%;
+}
+
+.by-author {
+    padding-top: 25px;
+    padding-left: 5px;
+}
+
+/* .navFooter {
+    display: flex;
+    bottom: 5%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: none;
+    color: black;
+    width: 100%;
+}
+
+.navBar.sticky {
+    position: fixed;
+} */
+
+/* end navfooter */
+
+
+/* pg1 */
+
+.p1-body {
+    border: 15px solid black;
+}
+
+.p1-header {
+    border-bottom: 50px solid black;
+    padding-top: 7%;
+    padding-bottom: 3%;
+    align-self: center;
+    text-align: center;
+}
+
+.img-grid {
+    margin: auto;
+    text-align: center;
+    max-width: 1000px;
+    border: none;
+}
+
+/* pg2 */
+
+.p2-body {
+
+}
+
+.p2-header {
+    padding: 7%;
+    align-self: center;
+    text-align: center;
+    border-bottom: 30px sild rgb(253, 230, 235);
+}
+
+.p2-text-grid {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+
+}
+.p2-left {
+    width: 250px;
+    text-align: center;
+    position: relative;
+    left: 45%;
+    bottom: 2%;
+    font-size: 25px;
+}
+
+.p2-left-text {
+    text-align: left;
+    padding-left: %;
+    font-size: 20px;
+    position: relative;
+    bottom: 20px;
+}
+
+.p2-right {
+    width: 400px;
+    position: relative;
+    left: 30%;
+}
+
+.p2-right-text {
+    padding-bottom: 15%;
+    padding-left: 14%;
+    font-size: 20px;
+}
+
+.p2-footer {
+    text-align: center;
+    padding: 3%;
+    border: 50px solid rgb(253, 230, 235);
+}
+
+
+
+
+.p3-body{
+
+}
+
+.p3-header {
+    padding-top: 7%;
+    padding-bottom: 3%;
+    align-self: center;
+    text-align: center;
+
+}
+
+.p3-img {
+display: flex;
+    justify-content: center;
+}
+
+.img-p3 {
+    max-height: 500px;
+    max-width: auto;
+    border: 30px solid rgb(253, 230, 235);
+
+}
+
+.p3-text {
+    border: 30px solid rgb(253, 230, 235);
+    text-align: center;
+    padding: 3% 15%;
+    font-size: 20px;
+}
+
+.p4-body {
+
+}
+
+.p4-header {
+    padding-top: 7%;
+    padding-bottom: 3%;
+    align-self: center;
+    text-align: center;
+}
+
+.p4-title {
+    text-align: center;
+}
+
+.p4-email {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.contactFieldset {
+    max-width: 300px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+.contactForm {
+}
+
+.formInput {
+    margin-bottom: 3%;
+}
+.formTextarea {
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
