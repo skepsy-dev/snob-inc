@@ -36,7 +36,12 @@ h3 {
     text-align: left;
     font-family: 'MyWebFont';
     color: black;
-    white-space: nowrap;
+}
+
+h4 {
+    text-align: left;
+    font-family: 'MyWebFont';
+    color: black;
 }
 
 h6 {
@@ -65,8 +70,9 @@ a {
     font-size: 10px;
 }
 
-td {
+legend {
     font-family: 'MyWebFont';
+    font-size: 10px;
 }
 
 button {
@@ -90,6 +96,7 @@ textarea {
     background-color: none;
     color: black;
     width: 100%;
+    z-index: 500;
 }
 
 .navBar.sticky {
@@ -278,6 +285,9 @@ textarea {
     left: 30%;
 }
 
+.servicesH3 {
+    white-space: nowrap;
+}
 .p2-right-text {
     padding-bottom: 15%;
     padding-left: 14%;
@@ -306,7 +316,7 @@ textarea {
 }
 
 .p3-img {
-display: flex;
+    display: flex;
     justify-content: center;
 }
 
@@ -321,7 +331,6 @@ display: flex;
     border: 30px solid rgb(253, 230, 235);
     text-align: center;
     padding: 3% 15%;
-    font-size: 20px;
 }
 
 .p4-body {
