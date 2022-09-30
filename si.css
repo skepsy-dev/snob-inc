@@ -106,7 +106,7 @@ textarea {
     width: 300px;
     height: auto;
     padding-left: 20%;
-    padding-top: 7%;
+    padding-top: 5%;
     font-size: 30px;
 }
 
@@ -240,8 +240,13 @@ textarea {
 .img-grid {
     margin: auto;
     text-align: center;
-    max-width: 1000px;
     border: none;
+}
+
+.img-p1 {
+    width: auto;
+    object-fit: scale-down;
+    max-width: 100%
 }
 
 /* pg2 */
